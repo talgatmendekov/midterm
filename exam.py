@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-image = cv2.imread("test.jpg") 
+image = cv2.imread("https://upload.wikimedia.org/wikipedia/en/7/7d/Lenna_%28test_image%29.png") 
 
 if image is None:
     print("Error: Image not found!")
